@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+
+	<title>UW Venture Capital Club | University of Washington</title>
+
+	<link rel = "shortcut icon" type = "image" href = "https://static.wixstatic.com/media/4996be_f130d8c90a9b42a081fe24ac56f86da4~mv2.png/v1/fill/w_520,h_622,al_c,lg_1,q_85,enc_auto/Screenshot%202023-08-25%20at%2010_49_06%20AM.png">
+
+	<!-- Meta Tags -->
+	<meta charset = "UTF-8">
+	<meta http-equiv='content-language' content='en-us'>
+
+	<meta name = "description" content = "">
+
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+	<!-- Bootstrap 4.1 CSS Library -->
+	<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity = "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin = "anonymous">
+
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7W1M8PDX1X"></script>
+
+	<!-- Main CSS -->
+	<link rel = "stylesheet" href = "style.css">
+
+	<style>
+
+		h2 {
+			font-size: 2.65em;
+		}
+
+		h3 {
+			font-size: 2.05em;
+		}
+
+		p {
+			font-size: 1.25em;
+		}
+
+		span.line-break {
+			display: block; 
+			width: 30%; 
+			margin-left: 35%;  
+			border: 1px solid rgba(255, 255, 255, 0.75);
+		}
+
+		header {
+			color: #FFFFFF;
+			margin-top: 10%;
+		}
+
+		header img.background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 95vh;
+			z-index: -100;
+		}
+
+		header div.cover {
+			background-color: rgba(0, 0, 0, 0.5);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 95vh;
+			z-index: -10;
+		}
+
+		header h1 {
+			color: #FFFFFF;
+			font-size: 2.75em;
+			font-weight: initial;
+			margin-top: 10%;
+			margin-bottom: 50px;
+		}
+
+		header a {
+			color: #FFFFFF;
+			font-size: 1.25em;
+		}
+
+		div.about {
+			padding-bottom: 12%;
+		}
+
+		div.about h2 {
+			font-size: 1.75em;
+			margin-bottom: 35px;
+		}
+
+		div.about p {
+			font-size: 1.15em;
+		}
+
+		div.events {
+			background-color: #f0f0f0;
+			padding: 5% 0;
+		}
+
+		div.events div.heading h2 {
+			font-size: 1.75em;
+			text-align: center;
+		}
+
+		div.events div.heading p {
+			color: rgba(0, 0, 0, .75);
+			font-size: .95em;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+
+		div.events div.panel {
+			padding: 35px;
+			border-bottom: 1px solid rgb(15, 15, 15);
+		}
+
+		div.events div.panel h3 {
+			font-size: 1.25em;
+		}
+
+		div.events div.panel p {
+			font-size: .95em;
+			margin-bottom: 0;
+		}
+
+		div.subscribe {
+			background-image: linear-gradient(to right, #1c3327 0%, #488766 100%);
+			background-color: #1c3327;
+			padding: 65px 0;
+		}
+
+		div.subscribe h3 {
+			color: #FFFFFF;
+			font-size: 1.65em;
+		}
+
+		div.subscribe div.row.form {
+			width: 100%;
+		}
+
+		div.subscribe form {
+			width: 100%;
+		}
+
+		div.subscribe input {
+			padding: 15px;
+			width: 70%;
+			border: none;
+			border-radius: 5px;
+			margin-right: 5px;
+		}
+
+		div.subscribe input::placeholder {
+			color: rgb(28, 51, 39);
+		}
+
+		div.subscribe button {
+			background-color: #FFFFFF;
+			color: rgb(28, 51, 39);
+			padding: 15px;
+			outline: none;
+			border: none;
+			border-radius: 5px;
+		}
+
+		@media (max-width: 1200px) {
+
+			header h1 {
+				margin-top: 15%;
+			}
+
+		}
+
+		@media (max-width: 992px) {
+
+			header h1 {
+				margin-top: 25%;
+			}
+
+			div.subscribe h3 {
+				margin-bottom: 50px;
+			}
+
+		}
+
+		@media (max-width: 768px) {
+
+			header h1 {
+				margin-top: 30%;
+			}
+
+			div.events {
+				text-align: center;
+			}
+
+			div.events div.date {
+				margin-bottom: 25px;
+			}
+
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+
+		<div class="container">
+
+			<a class="navbar-brand" href="#">
+
+				<div class="row">
+
+					<img src="https://static.wixstatic.com/media/4996be_9c6259f5f7cf49cd8992f926f7cdd007~mv2.png/v1/fill/w_94,h_76,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4996be_9c6259f5f7cf49cd8992f926f7cdd007~mv2.png" alt="" width="40" height="40">
+
+					<p>UW Venture Capital Club</p>
+
+				</div>
+
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 0; float: right;">
+
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<span class="navbar-nav ml-auto"></span>
+
+				<span class = "d-flex">
+
+					<ul class="navbar-nav">
+
+						<a href = "#" class = "text">ABOUT</a>
+
+						<a href = "#" class = "text">EVENTS</a>
+
+						<a href = "#" class = "text">LEADERSHIP</a>
+
+						<a href = "#" class = "text">JOIN</a>
+
+						<a href = "#" class = "text">CONNECT</a>
+
+					</ul>
+
+				</span>
+
+			</div>
+
+		</div>
+
+	</nav>
+
+	<!-- Header Content -->
+	<header>
+
+		<img src = "https://static.wixstatic.com/media/4996be_0279767e2dec4cad912607e41ce9cbe6~mv2.jpg/v1/fill/w_2720,h_1299,al_c,q_90,enc_auto/4996be_0279767e2dec4cad912607e41ce9cbe6~mv2.jpg" class = "background full">
+
+		<div class = "cover"></div>
+
+		<div class = "container full">
+
+			<div class = "row">
+
+				<div class = "col-md-7">
+
+					<h1>Cultivating UW's relationship with the venture capital community</h1>
+
+					<a href = "#">Learn More -></a>
+
+					<br><br>
+
+					<a href = "#">What is Venture Capital? -></a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</header>
+
+	<!-- About -->
+	<div class = "container about">
+
+		<div class = "row">
+
+			<div class = "col-sm-1"></div>
+
+			<div class = "col-sm-10">
+
+				<h2>About UW Venture Capital Club</h2>
+
+				<p>
+
+					We are a student-run club at the University of Washington working to provide students with knowledge, resources, and opportunities in venture capital.
+
+					<br><br>
+
+					Whether you’re a future startup founder, financier, or just curious, we welcome you to join us as we aim to increase access and transparency around private equity.
+
+				</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Events -->
+	<div class = "container-fluid events">
+
+		<div class = "container">
+
+			<div class = "heading">
+
+				<h2>Upcoming Events</h2>
+
+				<p>*meeting details are subject to change.</p>
+
+			</div>
+
+			<div class = "row">
+
+				<div class = "col-sm-2"></div>
+
+				<div class = "col-sm-8">
+
+					<div class = "row panel">
+
+						<div class = "col-sm-3 date">
+
+							<h3>NOV 1</h3>
+
+							<p>Wed • 6:00pm</p>
+
+						</div>
+
+						<div class = "col-sm-9 title">
+
+							<h3>How VCs evaluate pitches and startups</h3>
+
+							<p>Guest Speaker from FUSE with Nolan Van Nortwick</p>
+
+						</div>
+
+					</div>
+
+					<div class = "row panel">
+
+						<div class = "col-sm-3 date">
+
+							<h3>NOV 15</h3>
+
+							<p>Wed • 6:00pm</p>
+
+						</div>
+
+						<div class = "col-sm-9 title">
+
+							<h3>Finance Spotlight: How to evaluate pitches</h3>
+
+							<p>Guest Speaker from Pack VC with Ken Horenstein</p>
+
+						</div>
+
+					</div>
+
+					<div class = "row panel">
+
+						<div class = "col-sm-3 date">
+
+							<h3>NOV 29</h3>
+
+							<p>Wed • 6:00pm</p>
+
+						</div>
+
+						<div class = "col-sm-9 title">
+
+							<h3>How to break into Venture Capital</h3>
+
+							<p>Guest Speaker from First Row Partners with Minda Brusse</p>
+
+						</div>
+
+					</div>
+
+					<div class = "row panel">
+
+						<div class = "col-sm-3 date">
+
+							<h3>DEC 6</h3>
+
+							<p>Wed • 6:00pm</p>
+
+						</div>
+
+						<div class = "col-sm-9 title">
+
+							<h3>Fall Celebration</h3>
+
+							<p>Join us to wrap up the fall quarter with snacks and fun activities</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Subscribe -->
+	<div class = "container-fluid subscribe">
+
+		<div class = "container">
+
+			<div class = "row">
+
+				<div class = "col-lg-6">
+
+					<h3>Featured Insights: VC’s most inspiring thought leadership on issues shaping the future of business and society.</h3>
+
+				</div>
+
+				<div class = "col-lg-6">
+
+					<div class = "row form">
+
+						<form>
+
+							<input type = "text" placeholder = "Enter your email">
+
+							<button class = "submit">SUBSCRIBE</button>
+
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Footer -->
+	<footer>
+
+		<div class = "container-fluid bottom">
+
+			<p>© UW Venture Capital Club 2023 | All Rights Reserved</p>
+
+		</div>
+
+	</footer>
+
+	<!-- Navigation Scrolling -->
+	<script>
+
+		window.addEventListener("scroll", function() {
+			var $nav = $("nav");
+
+			if (window.scrollY > 0) {
+				$nav.addClass("scrolling-active");
+			} else {
+				$nav.removeClass("scrolling-active");
+			}
+		});
+
+	</script>
+
+	<!-- Bootstrap 4.1 JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
