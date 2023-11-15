@@ -397,7 +397,7 @@ footer div.bottom p {
 @media (max-width: 576px) {
 
 	nav a.navbar-brand p {
-    	font-size: 1em;
+    	font-size: 0.85em;
     	margin-top: 7px;
 	}
 	
